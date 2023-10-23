@@ -30,7 +30,7 @@ const items = [
   {
     name: 'inferno blade',
     image: 'images/items/era_auction20-cromyz-infernoblade-icon.png',
-    category: '',
+    category: 'melees',
     pricerange: '50k-100k',
     price: '55k-60k'
   },
@@ -975,14 +975,14 @@ const items = [
   {
     name: 'angel wings',
     image: 'images/items/era_water-angelwings-icon.png',
-    category: 'show-off items',
+    category: 'mounts',
     pricerange: '1m+',
     price: '3.5m+'
   },
   { ///////////////////
     name: 'demon wings',
     image: 'images/items/era_water-demonwings-icon.png',
-    category: 'show-off items',
+    category: 'mounts',
     pricerange: '1m+',
     price: 'Unknown'
   },

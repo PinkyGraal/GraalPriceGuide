@@ -24,6 +24,11 @@ html {
   background-color: rgb(56, 56, 56);
 }
 
+.footer {
+  display: flex;
+  color: white;
+}
+
 .graalgangster {
   max-width: 80px;
   height: auto;
