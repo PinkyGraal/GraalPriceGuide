@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure proper box model */
+}
+
+html {
+  height: 100%; /* Adjust to fill the user's screen vertically */
+  background-color: #080808;
+}
+
+.content {
+  width: 100%;
+}
+
+.header {
+  flex-grow: 1;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  background-color: rgb(56, 56, 56);
+}
+
+.graalgangster {
+  max-width: 80px;
+  height: auto;
+  border-width: 5px;
+  box-shadow: 0 0 0.5em #daa000;
+  margin: 15px;
+  box-shadow: goldenrod;
+}
+
+.header-title {
+  flex-grow: 1;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem; /* Improved responsiveness */
+  text-align: center;
+  text-shadow: 5px 5px 2px black;
+  color: white;
+}
+
+.fa-brands.fa-discord {
+  color: rgb(109, 157, 230);
+  padding: 0 30px; /* Adjust padding for better alignment */
+  font-size: 2rem; /* Improved responsiveness */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+&::before {
+  content: '';
+  min-height: 7100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-image: url(Images/GraalMap.PNG);
+  background-repeat: repeat-y;
+  background-position: center;
+  opacity: 20%;
+}
+
+p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  margin-top: 0px;
+  background-color: golden;
+  border-color: goldenrod;
+  border-width: 3px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search:hover {
+  border-width: 5px;
+  border-color: goldenrod;
+}
+
+.search:focus {
+  border-width: 7px;
+  border-color: goldenrod;
+}
+
+
+h1 {
+  font-size: 4rem;
+  color: #daa520;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+h2, 
+h5 {
+  font-size: 4rem;
+  letter-spacing: 5px;
+  text-align: center;
+  color: goldenrod;
+  font-family: 'Bebas Neue', cursive;
+  background: rgb(27, 25, 25);
+}
+
+h3 {
+  display: block;
+  width: 1200px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(177, 0, 147);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(27, 27, 27);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+h4 {
+  display: block;
+  width: 1200px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 70px;
+  text-align: center;
+  color: rgb(0, 3, 177);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(27, 27, 27);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.filter-box {
+  display: flex;
+  background-color: rgb(50, 50, 50);
+  width: 95%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.filter-selections {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 50px ;
+}
+
+.filter-header {
+  width: 90%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.prices-header {
+  width: 95%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.selectMenus {
+  background-color: rgb(37, 37, 37);
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.item-container {
+  display: flex;
+  width: 95%;
+  height: auto;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 120px);
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: auto auto;
+  background-color: rgb(50, 50, 50);
+  margin-bottom: 50px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.item1 {
+  background: linear-gradient(180deg, rgb(24, 24, 24) 0%, rgb(82, 82, 82) 50%, rgb(255, 255, 255) 100%);
+  border-style: solid;
+  border-radius: 20px;
+  width: 120px;
+  height: auto;
+  scale: 60%;
+  min-height: 120px;
+  max-height: 120px;
+  cursor: pointer;
+}
+
+.item2 {
+  background: linear-gradient(180deg, rgb(0, 37, 8) 0%, rgb(0, 44, 4) 50%, rgb(0, 99, 0) 100%);
+  border-style: solid;
+  border-radius: 20px;
+  width: 120px;
+  height: auto;
+  scale: 60%;
+  min-height: 120px;
+  max-height: 120px;
+  cursor: pointer;
+}
+
+.item3 {
+  background: linear-gradient(180deg, rgb(0, 4, 56) 0%, rgb(0, 12, 68) 50%, rgb(0, 47, 148) 100%);
+  border-style: solid;
+  border-radius: 20px;
+  width: 120px;
+  height: auto;
+  scale: 60%;
+  min-height: 120px;
+  max-height: 120px;
+  cursor: pointer;
+}
+
+.item4 {
+  background: linear-gradient(180deg, rgb(21, 0, 27) 0%, rgb(90, 0, 99) 50%, rgb(124, 58, 141) 100%);
+  border-style: solid;
+  border-radius: 20px;
+  width: 120px;
+  height: auto;
+  scale: 60%;
+  min-height: 120px;
+  max-height: 120px;
+  cursor: pointer;
+}
+
+.item5 {
+  background: linear-gradient(180deg, rgb(27, 24, 0) 0%, rgb(95, 81, 0) 50%, rgb(189, 145, 0) 100%);
+  border-style: solid;
+  border-radius: 20px;
+  width: 120px;
+  height: auto;
+  scale: 60%;
+  min-height: 120px;
+  max-height: 120px;
+  cursor: pointer;
+}
+
+.item6 {
+  background: linear-gradient(180deg, rgb(34, 0, 0) 0%, rgb(87, 0, 0) 50%, rgb(150, 45, 45) 100%);
+  border-style: solid;
+  border-radius: 20px;
+  width: 120px;
+  height: auto;
+  scale: 60%;
+  min-height: 120px;
+  max-height: 120px;
+  cursor: pointer;
+}
+
+.dropdown {
+  min-width: 15em;
+  position: relative;
+  margin: 2em;
+}
+
+.dropdown * {
+  box-sizing: border-box;
+  appearance: none;
+}
+
+.select {
+  background: rgb(27,25,25);
+  background: linear-gradient(0deg, rgba(27,25,25,1) 0%, rgba(63,62,65,1) 100%);
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px #252525 solid;
+  border-radius: 0.5em;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.select-clicked {
+  border: 2px #daa520 solid;
+  box-shadow: 0 0 0.8em #daa520;
+}
+
+.select:hover {
+  background: rgb(51,39,3);
+  background: linear-gradient(0deg, rgba(51,39,3,1) 0%, rgba(152,122,46,1) 100%);
+}
+
+.caret {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #fff;
+  transition: 0.3s;
+}
+
+.caret-rotate {
+  transform: rotate(180deg);
+}
+
+.menu {
+  list-style: none;
+  padding: 0.2em 0.5em;
+  background: #252525;
+  background: linear-gradient(0deg, rgba(27,25,25,1) 0%, rgba(63,62,65,1) 100%);
+  border: 1px #363a43 solid;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+  border-radius: 0.5em;
+  color: #9fa5b5;
+  position: absolute;
+  top: 3em;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%);
+  opacity: 0;
+  display: none;
+  transition: 0.2s;
+  z-index: 1;
+}
+
+.menu li {
+  padding: 0.7em 0.5em;
+  margin: 0.3em 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  background: #332703;
+  background: linear-gradient(0deg, rgba(51,39,3,1) 0%, rgba(152,122,46,1) 100%);
+}
+
+.active {
+  background: #080808;
+}
+
+.menu-open {
+  display: block;
+  opacity: 1;
+}
+
+.filterDropdowns {
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  border-color: black;
+}
+
+.filterDropdowns:hover {
+  border-color: goldenrod;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.filterDropdowns:focus {
+  border-color: goldenrod;
+}
+
+
+.melees {
+  background-color: purple;
+}
+
+/* CSS for the modal container */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; /* Adjust to always start from the top */
+  left: 0; /* Adjust to always start from the left */
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: auto;
+}
+
+/* CSS for the modal content */
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 50%; /* Center vertically relative to the viewport */
+  left: 50%; /* Center horizontally relative to the viewport */
+  transform: translate(-50%, -50%); /* Center the modal */
+  padding: 20px;
+  max-width: 70%;
+  min-width: 80%;
+  max-height: 100%;
+}
+
+/* Close button and other styles... */
+
+/* Close button */
+.close-modal {
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+/* Additional styles for the modal content */
+.modal-content img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Customize other styles as needed */
+
+img.modalItemImage {
+  width: 150px;
+  display: flex;
+  margin: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+}
+
+.itemName {
+  color: goldenrod;
+  text-transform: capitalize;
+}
+
+h6 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  columns: white;
+}
+
+.category {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.price {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}

@@ -1,0 +1,1218 @@
+const items = [
+  {
+    name: 'stun gun',
+    image: 'images/items/cda_stungunicon.png',
+    category: 'melees',
+    pricerange: 'Under 10k',
+    price: '1k-1.2k'
+  },
+  {
+    name: 'dragon breath knife',
+    image: 'images/items/era_auction20-bbb-dragonbreath-knife-icon.gif',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '35k-40k'
+  },
+  { /////////////////////
+    name: 'guardian angel trashpick',
+    image: 'images/items/era_auction20-bbb-guardianangel-trashpick-icon.png',
+    category: 'trashpicks',
+    pricerange: '50k-100k',
+    price: 'Unknown'
+  },
+  {
+    name: 'thunder blade',
+    image: 'images/items/era_auction20-bbb-majestic-thunderblade-icon.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '70k-75k'
+  },
+  {
+    name: 'inferno blade',
+    image: 'images/items/era_auction20-cromyz-infernoblade-icon.png',
+    category: '',
+    pricerange: '50k-100k',
+    price: '55k-60k'
+  },
+  {
+    name: 'unknown dimension katana',
+    image: 'images/items/era_auction20_mic-unknowndemensionkatanaframes-icon.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '265k-275k'
+  },
+  {
+    name: 'black matter katana',
+    image: 'images/items/era_auction21-blackmatter-katana-icon.gif',
+    category: 'melees',
+    pricerange: '1m+',
+    price: '2.3m+'
+  },
+  { /////////////////////
+    name: 'shadow daggers',
+    image: 'images/items/era_auction22-cpu-shwknife-icon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  { /////////////////////
+    name: 'karafuru katana',
+    image: 'images/items/era_bailey-bf21-karafurukatana-icon.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: 'Unknown'
+  },
+  {
+    name: 'ice mage',
+    image: 'images/items/era_bailey-presents21-icemage-icon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: '7m+'
+  },
+  {
+    name: 'beaver hammer',
+    image: 'images/items/era_bas-timo-item-icon.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '100k+'
+  },
+  { 
+    name: 'Icy Wrath',
+    image: 'images/items/era_bbb-xmas19-contest-melee-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: 'Unknown'
+  },
+  {
+    name: 'bolt wand',
+    image: 'images/items/era_bf-icon-canwebuildit-medieval-kyle-wand.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '40k-50k'
+  },
+  {
+    name: 'templar dagger',
+    image: 'images/items/era_bf-icon-canwebuildit-medieval-vaki-templardagger.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '20k-25k'
+  },
+  {
+    name: 'golden butterfly knife',
+    image: 'images/items/era_bitzsam-goldenbutterflyknife-new-icon.gif',
+    category: 'melees',
+    pricerange: '1m+',
+    price: '1.6m+'
+  },
+  {
+    name: 'bone trashpick',
+    image: 'images/items/era_bone_trashpick-icon.png',
+    category: 'trashpicks',
+    pricerange: '10k-50k',
+    price: '25k-30k'
+  },
+  {
+    name: 'winter staff',
+    image: 'images/items/era_bram-winterstaff-icon.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '75k-80k'
+  },
+  { ///////////////////
+    name: 'broken shovel',
+    image: 'images/items/era_brokenshovel.png',
+    category: 'show-off items',
+    pricerange: '1m+',
+    price: 'unknown'
+  },
+  { ///////////////////
+    name: 'golden honey stick',
+    image: 'images/items/era_cpu-bee22-golden-honey-stick-melee-icon.png',
+    category: 'melees',
+    pricerange: 'Under 10k',
+    price: 'unkown'
+  },
+  { ///////////////////
+    name: 'blood trident',
+    image: 'images/items/era_cpu-halloween22-blood-trident-icon1.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: 'unknown'
+  },
+  { ///////////////////
+    name: 'chaos blade',
+    image: 'images/items/era_cpu-presents22-chaosblade-icon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'unknown'
+  },
+  { ///////////////////
+    name: 'sky breaker',
+    image: 'images/items/era_cpu-presents22-thesky-breaker-icon1.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'unknown'
+  },
+  { ///////////////////
+    name: 'rainbow skateboard trashpick',
+    image: 'images/items/era_crimiz-store-skatepick-icon1.png',
+    category: 'trashpicks',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'monkey melee',
+    image: 'images/items/era_crissi-minimonkey-icon.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '350k+'
+  },
+  { ///////////////////
+    name: 'galactic frost blade',
+    image: 'images/items/era_crom-xmas22-galactic-frost-blade-icon1.png',
+    category: 'melees',
+    pricerange: 'Under 10k',
+    price: 'unknown'
+  },
+  { ///////////////////
+    name: 'vanquisher',
+    image: 'images/items/era_crom-xmas22-vanquisher-icon-21.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'elite blade',
+    image: 'images/items/era_elite_blade-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '25-30k'
+  },
+  {
+    name: 'fish slap',
+    image: 'images/items/era_fishmelee-icon1.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '22k-25k'
+  },
+  { ///////////////////
+    name: 'pimp hat',
+    image: 'images/items/era_hat-icon-0871.png',
+    category: 'hats',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'police officer hat',
+    image: 'images/items/era_hat-icon-1061.png',
+    category: 'hats',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'modern katana',
+    image: 'images/items/era_i-mkatana1.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'butterfly knife',
+    image: 'images/items/era_icon-bitzsam-butterflyknifegold1.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: '1.2m+'
+  },
+  {
+    name: 'blookat katana',
+    image: 'images/items/era_icon-bk-katana.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: '800k+'
+  },
+  {
+    name: 'black cape',
+    image: 'images/items/era_icon-blackcape.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '170k-190k'
+  },
+  {
+    name: 'candy bar melee',
+    image: 'images/items/era_icon-candybar.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '16k-20k'
+  },
+  {
+    name: 'taco hammer',
+    image: 'images/items/era_icon-cdmtacohammer.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '50k-60k'
+  },
+  {
+    name: 'chaplain dagger',
+    image: 'images/items/era_icon-chaplaindagger1.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '15k'
+  },
+  {
+    name: 'cigar trashpick',
+    image: 'images/items/era_icon-cigartrashpick.png',
+    category: 'trashpicks',
+    pricerange: '10k-50k',
+    price: '30k-35k'
+  },
+  { 
+    name: 'red drag sword',
+    image: 'images/items/era_icon-daggershiz.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '160-180k'
+  },
+  { 
+    name: 'green drag sword',
+    image: 'images/items/era_icon-dragsword-green.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '60k-70k'
+  },
+  {
+    name: 'bunny hammer',
+    image: 'images/items/era_icon-e13_5.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: '3m+'
+  },
+  {
+    name: 'lolli sword',
+    image: 'images/items/era_icon-e13_lollisword.png',
+    category: 'melees',
+    pricerange: '500k-1m',
+    price: '500k-600k'
+  },
+  {
+    name: 'facebook axe',
+    image: 'images/items/era_icon-fbaxe21.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '12k-15k'
+  },
+  {
+    name: 'flamecrow wings',
+    image: 'images/items/era_icon-fcwings.png',
+    category: 'show-off items',
+    pricerange: '500k-1m',
+    price: '700k-800k'
+  },
+  {
+    name: 'graalians hammer',
+    image: 'images/items/era_icon-gchammer.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '100k-110k'
+  },
+  {
+    name: 'ice cream melee',
+    image: 'images/items/era_icon-icecreammelee.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '16k-20k'
+  },
+  {
+    name: 'jeni umbrella',
+    image: 'images/items/era_icon-jeni-pinkumbrella.png',
+    category: 'umbrellas',
+    pricerange: '100k-500k',
+    price: '135k-145k'
+  },
+  {
+    name: 'la chancla',
+    image: 'images/items/era_icon-lachancla.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '18k-20k'
+  },
+  {
+    name: 'lollo hammer',
+    image: 'images/items/era_icon-lollohammer.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '50k-55k'
+  },
+  {
+    name: 'valentines axe',
+    image: 'images/items/era_icon-mamo-vaxe.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '20k-25k'
+  },
+  {
+    name: 'sapphire dagger',
+    image: 'images/items/era_icon-mamo-vdaydagger.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '15k-20k'
+  },
+  { ///////////////////
+    name: 'pickaxe',
+    image: 'images/items/era_icon-minin-pickaxe.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: 'Unknown'
+  },
+  {
+    name: 'purple mushroom knife',
+    image: 'images/items/era_icon-mushroomknife1.png',
+    category: 'mushroom knives',
+    pricerange: '500k-1m',
+    price: '600k+'
+  },
+  {
+    name: 'red mushroom knife',
+    image: 'images/items/era_icon-mushroomknife2.png',
+    category: 'mushroom knives',
+    pricerange: '500k-1m',
+    price: '550k+'
+  },
+  {
+    name: 'blue mushroom knife',
+    image: 'images/items/era_icon-mushroomknife3.png',
+    category: 'mushroom knives',
+    pricerange: '500k-1m',
+    price: '600k+'
+  },
+  {
+    name: 'noob hammer',
+    image: 'images/items/era_icon-noobhammer.png',
+    category: 'melees',
+    pricerange: '500k-1m',
+    price: '1m+'
+  },
+  { ///////////////////
+    name: 'panda hammer',
+    image: 'images/items/era_icon-pandahammer.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'pencil trashpick',
+    image: 'images/items/era_icon-pencilmelee.png',
+    category: 'trashpicks',
+    pricerange: '10k-50k',
+    price: '35k-40k'
+  },
+  {
+    name: 'pen trashpick',
+    image: 'images/items/era_icon-penmelee.png',
+    category: 'trashpicks',
+    pricerange: '100k-500k',
+    price: '100k-110k'
+  },
+  {
+    name: 'homeless witch dagger',
+    image: 'images/items/era_icon-princessdagger.png',
+    category: 'melees',
+    pricerange: '500k-1m',
+    price: '600k-650k'
+  },
+  {
+    name: 'skateboard trashpick',
+    image: 'images/items/era_icon-skateboardtrashpick1-0.png',
+    category: 'trashpicks',
+    pricerange: '100k-500k',
+    price: '145k-155k'
+  },
+  {
+    name: 'superfart',
+    image: 'images/items/era_icon-superfart.png',
+    category: 'show-off items',
+    pricerange: '100k-500k',
+    price: '110-120k'
+  },
+  {
+    name: 'syringe trashpick',
+    image: 'images/items/era_icon-syringetrashpick.png',
+    category: 'trashpicks',
+    pricerange: '50k-100k',
+    price: '50k-55k'
+  },
+  {
+    name: 'thermometer trashpick',
+    image: 'images/items/era_icon-thermo1.png',
+    category: 'trashpicks',
+    pricerange: '10k-50k',
+    price: '18k-22k'
+  },
+  {
+    name: 'toy bat',
+    image: 'images/items/era_icon-toybat.png',
+    category: 'show-off items',
+    pricerange: '100k-500k',
+    price: '100k-110k'
+  },
+  {
+    name: 'gold umbrella',
+    image: 'images/items/era_icon-umbrellagold.png',
+    category: 'umbrellas',
+    pricerange: '1m+',
+    price: '1.5m+'
+  },
+  {
+    name: 'summer umbrella',
+    image: 'images/items/era_icon-umbrellakuroneko.png',
+    category: 'umbrellas',
+    pricerange: '100k-500k',
+    price: '450k-500k'
+  },
+  {
+    name: 'flower umbrella',
+    image: 'images/items/era_icon-umbrellakuroneko2.png',
+    category: 'umbrellas',
+    pricerange: '500k-1m',
+    price: '800k-850k'
+  },
+  {
+    name: 'black umbrella',
+    image: 'images/items/era_icon-unbrellamelee.png',
+    category: 'umbrellas',
+    pricerange: '100k-500k',
+    price: '110-120k'
+  },
+  {
+    name: 'blue umbrella',
+    image: 'images/items/era_icon-unbrellameleeblue.png',
+    category: 'umbrellas',
+    pricerange: '1m+',
+    price: '1m+'
+  },
+  {
+    name: 'green umbrella',
+    image: 'images/items/era_icon-unbrellameleegreen.png',
+    category: 'umbrellas',
+    pricerange: '500k-1m',
+    price: '500k-550k'
+  },
+  {
+    name: 'pink umbrella',
+    image: 'images/items/era_icon-unbrellameleepink.png',
+    category: 'umbrellas',
+    pricerange: '500k-1m',
+    price: '600k-650k'
+  },
+  {
+    name: 'purple umbrella',
+    image: 'images/items/era_icon-unbrellameleepurple.png',
+    category: 'umbrellas',
+    pricerange: '500k-1m',
+    price: '800k-850k'
+  },
+  {
+    name: 'red umbrella',
+    image: 'images/items/era_icon-unbrellameleered.png',
+    category: 'umbrellas',
+    pricerange: '1m+',
+    price: '1m+'
+  },
+  {
+    name: 'white umbrella',
+    image: 'images/items/era_icon-unbrellameleewhite.png',
+    category: 'umbrellas',
+    pricerange: '500k-1m',
+    price: '700k-750k'
+  },
+  {
+    name: 'vine whip',
+    image: 'images/items/era_icon-vinewhip.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '35k-40k'
+  },
+  { ///////////////////
+    name: 'homeless witch wand',
+    image: 'images/items/era_icon-wand-hw.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: 'Unknown'
+  },
+  {
+    name: 'wizard staff',
+    image: 'images/items/era_icon-wizstaff.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '100k-120k'
+  },
+  {
+    name: 'spd fart',
+    image: 'images/items/era_icon_spd13_superfart1.png',
+    category: '',
+    pricerange: '100k-500k',
+    price: '100k-110k'
+  },
+  { ///////////////////
+    name: 'black rose',
+    image: 'images/items/era_jeni-blackrose.png',
+    category: 'show-off items',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'diamond mushroom knife',
+    image: 'images/items/era_jordan-auction-diamondmushknife-icon.png',
+    category: 'mushroom knives',
+    pricerange: '100k-500k',
+    price: '270k-300k'
+  },
+  {
+    name: 'diamond trashpick',
+    image: 'images/items/era_jordan-auction-diamondtp-icon.png',
+    category: 'trashpicks',
+    pricerange: '10k-50k',
+    price: '40k-50k'
+  },
+  {
+    name: 'pumpkin umbrella',
+    image: 'images/items/era_jordan-auction-pumpkinumbrella-icon.png',
+    category: 'umbrellas',
+    pricerange: '100k-500k',
+    price: '250k-280k'
+  },
+  {
+    name: 'recon blade',
+    image: 'images/items/era_jordan-halloween19-blade-icon.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '160k-170k'
+  },
+  {
+    name: 'nuclear blade',
+    image: 'images/items/era_jordan-nuclearstone-blade-icon.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '60k-65k'
+  },
+  {
+    name: 'flaming dagger',
+    image: 'images/items/era_jordan-xmas20-fireblade-icon1.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '90k-100k'
+  },
+  {
+    name: 'futuristic katana',
+    image: 'images/items/era_katana-ani16-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '20k-25k'
+  },
+  {
+    name: 'cat melee',
+    image: 'images/items/era_kittymelee-icon.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '80k-90k'
+  },
+  { 
+    name: 'toy hammer',
+    image: 'images/items/era_kuroneko-toyhammer-icon.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '50k-60k'
+  },
+  { ///////////////////
+    name: '3rd place crypt trophy 2015',
+    image: 'images/items/era_lafez-crypt-trophy-3th-price.png',
+    category: 'show-off items',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'marshmallow dagger',
+    image: 'images/items/era_marshmallow_mele-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '20k-25k'
+  },
+  {
+    name: 'crayon trashpick',
+    image: 'images/items/era_mila_red-crayon-icon.png',
+    category: 'trashpicks',
+    pricerange: '10k-50k',
+    price: '15k-18k'
+  },
+  {
+    name: 'chainsaw',
+    image: 'images/items/era_motive-chainsawicon.gif',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '50k-60k'
+  },
+  {
+    name: 'nature ridden axe',
+    image: 'images/items/era_olirus-2018-natureriddenaxe-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '10k-12k'
+  },
+  {
+    name: 'paladin staff',
+    image: 'images/items/era_olirus-2018-paladinstaff-icon.png',
+    category: '',
+    pricerange: '50k-100k',
+    price: '70k-80k'
+  },
+  { ///////////////////
+    name: 'blue plasma scythe',
+    image: 'images/items/era_olirus-2018-plasmacorpscythe-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'red plasma scythe',
+    image: 'images/items/era_olirus-2018-plasmacorpscythe-iconred.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: 'Unknown'
+  },
+  {
+    name: 'void dagger',
+    image: 'images/items/era_olirus-2018-voiddagger-icon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: '4m+'
+  },
+  {
+    name: 'blue toothed sword',
+    image: 'images/items/era_olirus-2019-eventshop-toothedsword-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '10k-12k'
+  },
+  {
+    name: 'red toothed sword',
+    image: 'images/items/era_olirus-2019-eventshop-toothedsword2-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '10k-12k'
+  },
+  {
+    name: 'magma axe',
+    image: 'images/items/era_olirus-magmaaxe-icon.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '350k-400k'
+  },
+  {
+    name: 'plunger trashpick',
+    image: 'images/items/era_plunger_trashpick-icon.png',
+    category: 'trashpicks',
+    pricerange: '10k-50k',
+    price: '20k-25k'
+  },
+  {
+    name: 'abyssal mark',
+    image: 'images/items/era_qwerty-bf21-sword-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '18k-20k'
+  },
+  {
+    name: 'sorcerers wand',
+    image: 'images/items/era_qwerty-halloween21-sorcerers-wand-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '18k-20k'
+  },
+  { ///////////////////
+    name: 'water slayer',
+    image: 'images/items/era_qwerty-seamonster21-water-sword-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: 'Unknown'
+  },
+  {
+    name: 'dual knives',
+    image: 'images/items/era_qwerty-xmas21-dual-knives-icon1.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '110k-120k'
+  },
+  {
+    name: 'dino hat',
+    image: 'images/items/era_rare-blackfacehat-icon.gif',
+    category: 'hats',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'christmas umbrella',
+    image: 'images/items/era_raul-xmasumbrella-icon.png',
+    category: 'umbrellas',
+    pricerange: '50k-100k',
+    price: '70k-80k'
+  },
+  {
+    name: 'palm umbrella',
+    image: 'images/items/era_rima-auctions-palmumbrellaicon.png',
+    category: 'umbrellas',
+    pricerange: '100k-500k',
+    price: '250k-270k'
+  },
+  {
+    name: 'legendary hat chest',
+    image: 'images/items/era_rima-auctions21-auctionchest-icon.png',
+    category: 'hats',
+    pricerange: '100k-500k',
+    price: '250k-270k'
+  },
+  {
+    name: 'bubbly umbrella',
+    image: 'images/items/era_rima-bf22-bubblyumbrella-icon.gif',
+    category: 'umbrellas',
+    pricerange: '50k-100k',
+    price: '60k-70k'
+  },
+  {
+    name: 'rare flower basket',
+    image: 'images/items/era_rima-flower2018-rarebasket-icon.png',
+    category: '',
+    pricerange: '10k-50k',
+    price: '30k-35k'
+  },
+  { ///////////////////
+    name: 'ornament spear',
+    image: 'images/items/era_rima-presents21-ornamentspear-icon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'cupid spear',
+    image: 'images/items/era_rima-vday22-lovespear-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'icy slasher',
+    image: 'images/items/era_rima-xmas22-icyslasher-icon-1.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: 'Unknown'
+  },
+  {
+    name: 'rage blade',
+    image: 'images/items/era_shiz-idkblade-icon.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '170k-180k'
+  },
+  {
+    name: 'mermaid staff',
+    image: 'images/items/era_sio-seamonster21-mermaidstaff-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '65k-70k'
+  },
+  {
+    name: 'sea staff',
+    image: 'images/items/era_sio-summer2021-seastaff-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '20k-22k'
+  },
+  {
+    name: 'ice blade',
+    image: 'images/items/era_storm_daggericon1.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '50k-60k'
+  },
+  {
+    name: 'bamboo sword',
+    image: 'images/items/era_timo_bamboosword-icon.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '55k-60k'
+  },
+  {
+    name: 'turkey chunk',
+    image: 'images/items/era_timo_turkeychunk-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '24k-27k'
+  },
+  {
+    name: 'rainbow cape',
+    image: 'images/items/era_tricky-rainbow22-cape-icon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: '1.2m+'
+  },
+  {
+    name: 'shark mount',
+    image: 'images/items/era_tricky-summer20-sharkie-icon.png',
+    category: 'mounts',
+    pricerange: '100k-500k',
+    price: '110k-120k'
+  },
+  {
+    name: 'shrimp mount',
+    image: 'images/items/era_tricky-wgkc21-shrimpomount-icon.png',
+    category: 'mounts',
+    pricerange: '10k-50k',
+    price: '18k-22k'
+  },
+  { ///////////////////
+    name: 'rainbow umbrella',
+    image: 'images/items/era_umbrella-rainbow-icon.png',
+    category: 'umbrellas',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'shrouded edge',
+    image: 'images/items/era_vera-auction20-mafiadon-icon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'zodiac sign melee',
+    image: 'images/items/era_vera-bf20-zodiacsign-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '20k-22k'
+  },
+  {
+    name: 'fangtian spear',
+    image: 'images/items/era_vera-cny21-spear-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '25k-28k'
+  },
+  {
+    name: 'ragnarok axe',
+    image: 'images/items/era_vera-crypt19-rereborn-axe-icon.png',
+    category: '',
+    pricerange: '10k-50k',
+    price: '10k-12k'
+  },
+  { ///////////////////
+    name: 'flame katana',
+    image: 'images/items/era_vera-firekatana-icon.gif',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'devils kanabo',
+    image: 'images/items/era_vera-hw22-melee1-icon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'ryouma dual blades',
+    image: 'images/items/era_vera-jpn21-bkatana-icon.png',
+    category: 'melees',
+    pricerange: '500k-1m',
+    price: '750k-800k'
+  },
+  {
+    name: 'neutron katana',
+    image: 'images/items/era_vera-neutron-katana-icon1.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '110k-115k'
+  },
+  {
+    name: 'plasma neutron claws',
+    image: 'images/items/era_vera-plasma-claws-icon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: '1.2m+'
+  },
+  {
+    name: 'plasma neutron fists',
+    image: 'images/items/era_vera-plasma-punch-icon.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '200k-210k'
+  },
+  {
+    name: 'gothic umbrella',
+    image: 'images/items/era_vera-presents19-umbrella-icon.png',
+    category: 'umbrellas',
+    pricerange: '100k-500k',
+    price: '450k-500k'
+  },
+  {
+    name: 'peacekeeper',
+    image: 'images/items/era_vera-xmas-present-peacekeeper-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '20k-22k'
+  },
+  {
+    name: 'reapers of torment',
+    image: 'images/items/era_vera-xmas-present-reapertorment-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '700k-720k'
+  },
+  {
+    name: 'areadbhar',
+    image: 'images/items/era_vera-xmas21-spear-icon.png',
+    category: 'melees',
+    pricerange: '500k-1m',
+    price: '720k-750k'
+  },
+  {
+    name: 'angel wings',
+    image: 'images/items/era_water-angelwings-icon.png',
+    category: 'show-off items',
+    pricerange: '1m+',
+    price: '3.5m+'
+  },
+  { ///////////////////
+    name: 'demon wings',
+    image: 'images/items/era_water-demonwings-icon.png',
+    category: 'show-off items',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'blood sword',
+    image: 'images/items/era_yuki-blackfriday20-sword-icon.png',
+    category: 'melees',
+    pricerange: '10k-50k',
+    price: '15k-18k'
+  },
+  {
+    name: 'aqua blade',
+    image: 'images/items/era_yuki-halloween20-aquablade-icon.png',
+    category: 'melees',
+    pricerange: 'Under 10k',
+    price: '9k-10k'
+  },
+  { ///////////////////
+    name: 'frost slayer',
+    image: 'images/items/era_yuki-xmas20-melee1-icon1.png',
+    category: '',
+    pricerange: '10k-50k',
+    price: 'Unknown'
+  },
+  {
+    name: 'inferno slayer',
+    image: 'images/items/era_yuki-xmas20-weapon2-icon.png',
+    category: '',
+    pricerange: '10k-50k',
+    price: '40k-45k'
+  },
+  {
+    name: 'kenshi katana',
+    image: 'images/items/ezio_katana_icon.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: '65k-70k'
+  },
+  {
+    name: 'spear trashpick',
+    image: 'images/items/hermes-spear-icon.png',
+    category: 'trashpicks',
+    pricerange: '10k-50k',
+    price: '30k-35k'
+  },
+  { ///////////////////
+    name: 'pepper pickaxe',
+    image: 'images/items/icon_era-cdmbaspepperpickaxe.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'layerd saber',
+    image: 'images/items/kuro_lay-bday-melee-icon.png',
+    category: '',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  {
+    name: 'layerd dagger',
+    image: 'images/items/layerd-birthdaydagger-icon.png',
+    category: 'melees',
+    pricerange: '100k-500k',
+    price: '100k-110k'
+  },
+  {
+    name: 'paint trashpick',
+    image: 'images/items/paintbrush-ay-icon.png',
+    category: 'trashpicks',
+    pricerange: '10k-50k',
+    price: '30k-35k'
+  },
+  { ///////////////////
+    name: 'layerd sword',
+    image: 'images/items/shiz-lay-b-day-icon.png',
+    category: 'melees',
+    pricerange: '50k-100k',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'wind dagger',
+    image: 'images/items/shizbdaydagger-icon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'mushroom dagger',
+    image: 'images/items/timo_mushroomdaggericon.png',
+    category: 'melees',
+    pricerange: '1m+',
+    price: 'Unknown'
+  },
+  { ///////////////////
+    name: 'zombie morph',
+    image: 'images/items/zombehz.png',
+    category: 'show-off items',
+    pricerange: '1m+',
+    price: 'Unknown'
+  }
+];
+
+
+  
+const itemModal = document.getElementById('item-modal');
+const modalContent = itemModal.querySelector('.modal-content');
+
+function openModal(item) {
+  // Display item details in the modal
+  modalContent.innerHTML = `
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <h6 class="itemName">${item.name}</h6>
+    <img src="${item.image}" alt="${item.name}" class="modalItemImage">
+    <p class="category">Category: ${item.category}</p>
+    <p class="price">Price: ${item.price}</p>
+  `;
+
+  itemModal.style.display = 'block';
+}
+
+function closeModal() {
+  itemModal.style.display = 'none';
+}
+
+// Close the modal if the user clicks anywhere outside the modal content
+window.onclick = function (event) {
+  if (event.target === itemModal) {
+    closeModal();
+  }
+};
+
+const container = document.getElementById('item-list');
+
+items.forEach(item => {
+  const div = document.createElement('div');
+  const img = document.createElement('img');
+
+  img.setAttribute('src', item.image);
+  img.setAttribute('alt', item.name);
+  div.appendChild(img);
+  container.appendChild(div);
+
+  // Add a click event listener to open the modal for the item
+  div.addEventListener('click', () => {
+    openModal(item);
+  });
+    if (item.pricerange === 'Under 10k') {
+      img.classList.add('item1');
+    } else if (item.pricerange === '10k-50k') {
+      img.classList.add('item2');
+    } else if (item.pricerange === '50k-100k') {
+      img.classList.add('item3');
+    } else if (item.pricerange === '100k-500k') {
+      img.classList.add('item4');
+    } else if (item.pricerange === '500k-1m') {
+      img.classList.add('item5');
+    } else if (item.pricerange === '1m+') {
+      img.classList.add('item6');
+    }
+  });
+
+//FILTER ITEMS
+
+function filterItems() {
+  const filter1 = document.getElementById('filter1').value;
+  const filter2 = document.getElementById('filter2').value;
+
+// Filter items based on the selected criteria
+filteredItems = items.filter(item => {
+  return (
+    (filter1 === '' || item.pricerange === filter1) &&
+    (filter2 === '' || item.category === filter2)
+  );
+});
+
+// Hide all items
+document.querySelectorAll('#item-list img').forEach(image => {
+  image.parentElement.style.display = 'none';
+});
+
+// Show only the filtered items
+filteredItems.forEach(item => {
+  const itemImage = document.querySelector(`img[src='${item.image}']`);
+  if (itemImage) {
+    itemImage.parentElement.style.display = 'block';
+    itemImage.parentElement.addEventListener('click', () => {
+      openModal(item);
+    })
+  }
+});
+
+// Reattach event listeners to the filtered items
+filteredItems.forEach(item => {
+  const itemImage = document.querySelector(`img[src='${item.image}']`);
+  if (itemImage) {
+    itemImage.parentElement.addEventListener('click', () => {
+      openModal(item);
+    });
+  }
+});
+}
+
+
+function searchImages() {
+  const searchInput = document.getElementById('search');
+  const query = searchInput.value.toLowerCase();
+  const images = document.querySelectorAll('#item-list img');
+  
+  const filteredImages = items.filter(item => {
+    const itemImage = document.querySelector(`img[src='${item.image}']`);
+    if (!itemImage) return false; // Skip items without images
+    
+  const filter1 = document.getElementById('filter1').value;
+  const filter2 = document.getElementById('filter2').value;
+  
+    return (filter1 === '' || item.pricerange === filter1) &&
+           (filter2 === '' || item.category === filter2) &&
+           item.name.toLowerCase().includes(query);
+  });
+  
+  images.forEach(image => {
+    const itemImage = filteredImages.find(item => item.image === image.getAttribute('src'));
+    image.parentElement.style.display = itemImage ? 'block' : 'none';
+  });
+}
+
+function validateSearchInput (inputElement) {
+  const inputValue = inputElement.value
+  // Remove any non-alphabet characters and trim the input
+  const sanitizedValue = inputValue.replace(/[^A-Za-z\s]/g, '').slice(0, 20);
+  inputElement.value = sanitizedValue;
+}

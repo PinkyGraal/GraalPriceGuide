@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Graal Era Price Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9305905877892924"
+     crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<header class="header">
+  <img class="graalgangster" src="images/graalgangster.png">
+  <h1 class="header-title">Graal Era Price Guide</h1>
+  <a href="https://discord.gg/NSYBMSAD4X" target="_blank">
+    <i class="fa-brands fa-discord"></i>
+  </a>
+</header>
+
+  <div id="item-modal" class="modal">
+    <div class="modal-content">
+      <!-- Item details will be displayed here -->
+    </div>
+  </div>
+
+<h2 class="prices-header">Prices</h2>
+
+  <div class="filter"></div>
+    <div class="selectMenus">
+      <select id="filter2" class="filterDropdowns" onchange="filterItems()">
+        <div class="selectOptions">
+          <option value="">Category: All</option>
+          <option value="melees">Melees</option>
+          <option value="umbrellas">Umbrellas</option>
+          <option value="trashpicks">Trashpicks</option>
+          <option value="mushroom knives">Mushroom Knives</option>
+          <option value="show-off items">Show-Off Items</option>
+          <option value="mounts">Mounts</option>
+          <option value="hats">Hats</option>
+        </div>
+      </select>
+      
+      <select id="filter1" class="filterDropdowns" onchange="filterItems()">
+        <option value="">Price Range: All</option>
+        <option value="Under 10k">Under 10k</option>
+        <option value="10k-50k">10k-50k</option>
+        <option value="50k-100k">50k-100k</option>
+        <option value="100k-500k">100k-500k</option>
+        <option value="500k-1m">500k-1m</option>
+        <option value="1m+">1M+</option>
+      </select>
+</div>
+
+<div class="item-container">
+  <div class="searchbox_container">
+
+      <div class="searchbox">
+        <input type="text" id="search" class="search" oninput="validateSearchInput(this)" placeholder="Search Items" autocomplete="off" maxlength="20">
+      </div>
+  </div>
+
+  <div id="item-list" class="item-list">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+
+<script src="itemarray.js"></script>
+<script src="javascript.js"></script>
+<script src="https://kit.fontawesome.com/3bd99d8ff1.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
