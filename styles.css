@@ -65,6 +65,7 @@ body {
   background-image: url(images/GraalMap.PNG);
   background-repeat: repeat-y;
   background-position: center;
+  background-size: cover;
   opacity: 20%;
 }
 
