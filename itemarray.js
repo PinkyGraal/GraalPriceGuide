@@ -1086,12 +1086,15 @@ const items = [
   }
 ];
 
-
-  
 const itemModal = document.getElementById('item-modal');
 const modalContent = itemModal.querySelector('.modal-content');
 
+let selectedItem = null;
+
 function openModal(item) {
+  // Store the selected item
+  selectedItem = item;
+
   // Display item details in the modal
   modalContent.innerHTML = `
     <span class="close-modal" onclick="closeModal()">&times;</span>
@@ -1106,6 +1109,12 @@ function openModal(item) {
 
 function closeModal() {
   itemModal.style.display = 'none';
+
+  // Reset the selected item when the modal is closed
+  selectedItem = null;
+
+  // Clear the modal content
+  modalContent.innerHTML = '';
 }
 
 // Close the modal if the user clicks anywhere outside the modal content
@@ -1130,88 +1139,83 @@ items.forEach(item => {
   div.addEventListener('click', () => {
     openModal(item);
   });
-    if (item.pricerange === 'Under 10k') {
-      img.classList.add('item1');
-    } else if (item.pricerange === '10k-50k') {
-      img.classList.add('item2');
-    } else if (item.pricerange === '50k-100k') {
-      img.classList.add('item3');
-    } else if (item.pricerange === '100k-500k') {
-      img.classList.add('item4');
-    } else if (item.pricerange === '500k-1m') {
-      img.classList.add('item5');
-    } else if (item.pricerange === '1m+') {
-      img.classList.add('item6');
-    }
-  });
 
-//FILTER ITEMS
+  // Add item classes based on pricerange
+  if (item.pricerange === 'Under 10k') {
+    img.classList.add('item1');
+  } else if (item.pricerange === '10k-50k') {
+    img.classList.add('item2');
+  } else if (item.pricerange === '50k-100k') {
+    img.classList.add('item3');
+  } else if (item.pricerange === '100k-500k') {
+    img.classList.add('item4');
+  } else if (item.pricerange === '500k-1m') {
+    img.classList.add('item5');
+  } else if (item.pricerange === '1m+') {
+    img.classList.add('item6');
+  }
+});
+
+// FILTER ITEMS
 
 function filterItems() {
   const filter1 = document.getElementById('filter1').value;
   const filter2 = document.getElementById('filter2').value;
 
-// Filter items based on the selected criteria
-filteredItems = items.filter(item => {
-  return (
-    (filter1 === '' || item.pricerange === filter1) &&
-    (filter2 === '' || item.category === filter2)
-  );
-});
+  // Filter items based on the selected criteria
+  const filteredItems = items.filter(item => {
+    return (
+      (filter1 === '' || item.pricerange === filter1) &&
+      (filter2 === '' || item.category === filter2)
+    );
+  });
 
-// Hide all items
-document.querySelectorAll('#item-list img').forEach(image => {
-  image.parentElement.style.display = 'none';
-});
+  // Reset the selected item when filtering
+  selectedItem = null;
 
-// Show only the filtered items
-filteredItems.forEach(item => {
-  const itemImage = document.querySelector(`img[src='${item.image}']`);
-  if (itemImage) {
-    itemImage.parentElement.style.display = 'block';
-    itemImage.parentElement.addEventListener('click', () => {
-      openModal(item);
-    })
-  }
-});
+  // Hide all items
+  document.querySelectorAll('#item-list img').forEach(image => {
+    image.parentElement.style.display = 'none';
+  });
 
-// Reattach event listeners to the filtered items
-filteredItems.forEach(item => {
-  const itemImage = document.querySelector(`img[src='${item.image}']`);
-  if (itemImage) {
-    itemImage.parentElement.addEventListener('click', () => {
-      openModal(item);
-    });
-  }
-});
+  // Show only the filtered items
+  filteredItems.forEach(item => {
+    const itemImage = document.querySelector(`img[src='${item.image}']`);
+    if (itemImage) {
+      itemImage.parentElement.style.display = 'block';
+      itemImage.parentElement.addEventListener('click', () => {
+        openModal(item);
+      });
+    }
+  });
 }
 
-
+// Function to handle the search input
 function searchImages() {
   const searchInput = document.getElementById('search');
   const query = searchInput.value.toLowerCase();
   const images = document.querySelectorAll('#item-list img');
-  
+
   const filteredImages = items.filter(item => {
-    const itemImage = document.querySelector(`img[src='${item.image}']`);
-    if (!itemImage) return false; // Skip items without images
-    
-  const filter1 = document.getElementById('filter1').value;
-  const filter2 = document.getElementById('filter2').value;
-  
-    return (filter1 === '' || item.pricerange === filter1) &&
-           (filter2 === '' || item.category === filter2) &&
-           item.name.toLowerCase().includes(query);
+    return (
+      item.name.toLowerCase().includes(query) &&
+      (document.getElementById('filter1').value === '' || item.pricerange === document.getElementById('filter1').value) &&
+      (document.getElementById('filter2').value === '' || item.category === document.getElementById('filter2').value)
+    );
   });
-  
+
+  // Reset the selected item when searching
+  selectedItem = null;
+
   images.forEach(image => {
     const itemImage = filteredImages.find(item => item.image === image.getAttribute('src'));
     image.parentElement.style.display = itemImage ? 'block' : 'none';
   });
 }
 
-function validateSearchInput (inputElement) {
-  const inputValue = inputElement.value
+// Function to validate search input
+function validateSearchInput(inputElement) {
+  const inputValue = inputElement.value;
   // Remove any non-alphabet characters and trim the input
   const sanitizedValue = inputValue.replace(/[^A-Za-z\s]/g, '').slice(0, 20);
   inputElement.value = sanitizedValue;
