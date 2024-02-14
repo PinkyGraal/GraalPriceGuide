@@ -11,7 +11,8 @@ const items = [
     image: 'images/items/era_auction20-bbb-dragonbreath-knife-icon.gif',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '35k-40k'
+    price: '35k-40k',
+    video: "<a href='https://youtu.be/4wu-G7k5r9w?si=s20hyqb0OpJ1iI4k'>About</a>"
   },
   { /////////////////////
     name: 'guardian angel trashpick',
