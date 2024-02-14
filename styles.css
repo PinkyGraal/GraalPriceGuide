@@ -21,6 +21,7 @@ html {
 .footer {
   display: flex;
   color: white;
+  margin-left: 2.5rem;
 }
 
 .tabs {
@@ -76,6 +77,7 @@ html {
 
   .nav-menu.active {
       right: 0;
+      z-index: 1;
   }
 
   .nav-item {
@@ -100,6 +102,7 @@ html {
   .hamburger {
       display: block;
       cursor: pointer;
+      z-index: 1;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -644,7 +647,7 @@ h4 {
   padding-bottom: 4rem;
 }
 
-.youtube {
+.box-div {
   display: flex;
   width: 95%;
   justify-content: center;
