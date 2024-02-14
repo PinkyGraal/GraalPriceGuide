@@ -14,7 +14,6 @@ html {
 }
 
 
-
 .fa {
   color: white;
 }
@@ -52,7 +51,8 @@ html {
   text-align: center;
   color: goldenrod;
   text-decoration: none;
-  padding: 5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
 }
 
 
@@ -88,7 +88,10 @@ html {
     text-align: center;
     color: goldenrod;
     text-decoration: none;
-    padding: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
   }
 
   .hamburger {
@@ -246,21 +249,6 @@ h3 {
   font-size: 4rem;
   text-align: center;
   color: rgb(177, 0, 147);
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(27, 27, 27);
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-h4 {
-  display: block;
-  width: 1200px;
-  margin-top: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 70px;
-  text-align: center;
-  color: rgb(0, 3, 177);
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(27, 27, 27);
   border-top-left-radius: 20px;
@@ -619,4 +607,31 @@ h6 {
   color: white;
   font-size: 25px;
   text-align: center;
+}
+
+.videoTitle {
+  background-color: rgb(37, 37, 37);
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.youtube {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  margin: auto;
+  background-color: #252525;
+padding-bottom: 5rem;
+  
 }
