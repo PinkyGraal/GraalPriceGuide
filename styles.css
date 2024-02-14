@@ -55,7 +55,10 @@ html {
   padding-left: 2.5rem;
 }
 
-
+.video {
+  height: 400px;
+  width: 700px;
+}
 
 @media only screen and (max-width: 900px) {
   .nav-menu {
@@ -111,6 +114,10 @@ html {
     transform: translateY(-8px) rotate(-45deg);
 }
 
+.video {
+  height: auto;
+  width: auto;
+}
 
 }
 
@@ -610,7 +617,7 @@ h6 {
 }
 
 .videoTitle {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(12, 12, 12);
   width: 95%;
   margin-right: auto;
   margin-left: auto;
@@ -626,13 +633,42 @@ h4 {
   font-family: 'Bebas Neue', cursive;
 }
 
+.slider {
+  position: relative;
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  margin: auto;
+
+  margin-bottom: 1rem;
+  background-color: rgb(12, 12, 12);
+  padding-bottom: 5rem;
+}
+
 .youtube {
   display: flex;
   width: 95%;
   justify-content: center;
   margin: auto;
   margin-bottom: 1rem;
-  background-color: #252525;
+  background-color: rgb(12, 12, 12);
   padding-bottom: 5rem;
-  border-bottom: 5px white;
+}
+
+
+.prev-btn,
+.next-btn {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: auto;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
 }
