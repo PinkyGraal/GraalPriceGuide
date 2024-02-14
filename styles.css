@@ -639,10 +639,9 @@ h4 {
   width: 95%;
   justify-content: center;
   margin: auto;
-
   margin-bottom: 1rem;
   background-color: rgb(12, 12, 12);
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 
 .youtube {
