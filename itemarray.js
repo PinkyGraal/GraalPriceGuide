@@ -502,21 +502,21 @@ const items = [
     image: 'images/items/era_icon-unbrellameleepink.png',
     category: 'umbrellas',
     pricerange: '500k-1m',
-    price: '600k-650k'
+    price: '700k-750k'
   },
   {
     name: 'purple umbrella',
     image: 'images/items/era_icon-unbrellameleepurple.png',
     category: 'umbrellas',
     pricerange: '500k-1m',
-    price: '800k-850k'
+    price: '900k-950k'
   },
   {
     name: 'red umbrella',
     image: 'images/items/era_icon-unbrellameleered.png',
     category: 'umbrellas',
-    pricerange: '1m+',
-    price: '1m+'
+    pricerange: '500k-1m',
+    price: '800k-850k'
   },
   {
     name: 'white umbrella',
@@ -530,28 +530,28 @@ const items = [
     image: 'images/items/era_icon-vinewhip.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '35k-40k'
+    price: '40k-50k'
   },
   { ///////////////////
     name: 'homeless witch wand',
     image: 'images/items/era_icon-wand-hw.png',
     category: 'melees',
-    pricerange: '100k-500k',
-    price: 'Unknown'
+    pricerange: '500k-1m',
+    price: '500-550k'
   },
   {
     name: 'wizard staff',
     image: 'images/items/era_icon-wizstaff.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: '100k-120k'
+    price: '100k-110k'
   },
   {
     name: 'spd fart',
     image: 'images/items/era_icon_spd13_superfart1.png',
     category: '',
     pricerange: '100k-500k',
-    price: '100k-110k'
+    price: '110k-120k'
   },
   { ///////////////////
     name: 'black rose',
@@ -565,77 +565,77 @@ const items = [
     image: 'images/items/era_jordan-auction-diamondmushknife-icon.png',
     category: 'mushroom knives',
     pricerange: '100k-500k',
-    price: '270k-300k'
+    price: '300k-320k'
   },
   {
     name: 'diamond trashpick',
     image: 'images/items/era_jordan-auction-diamondtp-icon.png',
     category: 'trashpicks',
     pricerange: '10k-50k',
-    price: '40k-50k'
+    price: '25k-30k'
   },
   {
     name: 'pumpkin umbrella',
     image: 'images/items/era_jordan-auction-pumpkinumbrella-icon.png',
     category: 'umbrellas',
     pricerange: '100k-500k',
-    price: '250k-280k'
+    price: '250k-270k'
   },
   {
     name: 'recon blade',
     image: 'images/items/era_jordan-halloween19-blade-icon.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: '160k-170k'
+    price: '200k-220k'
   },
   {
     name: 'nuclear blade',
     image: 'images/items/era_jordan-nuclearstone-blade-icon.png',
     category: 'melees',
-    pricerange: '50k-100k',
-    price: '60k-65k'
+    pricerange: '100k-500k',
+    price: '100k-110k'
   },
   {
     name: 'flaming dagger',
     image: 'images/items/era_jordan-xmas20-fireblade-icon1.png',
     category: 'melees',
     pricerange: '50k-100k',
-    price: '90k-100k'
+    price: '85k-95k'
   },
   {
     name: 'futuristic katana',
     image: 'images/items/era_katana-ani16-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '20k-25k'
+    price: '15k-20k'
   },
   {
     name: 'cat melee',
     image: 'images/items/era_kittymelee-icon.png',
     category: 'melees',
-    pricerange: '50k-100k',
-    price: '80k-90k'
+    pricerange: '100k-500k',
+    price: '100k-110k'
   },
   { 
     name: 'toy hammer',
     image: 'images/items/era_kuroneko-toyhammer-icon.png',
     category: 'melees',
-    pricerange: '100k-500k',
-    price: '50k-60k'
+    pricerange: '50k-100k',
+    price: '70k-90k'
   },
   { ///////////////////
     name: '3rd place crypt trophy 2015',
     image: 'images/items/era_lafez-crypt-trophy-3th-price.png',
     category: 'show-off items',
-    pricerange: '1m+',
+    pricerange: '500k-1m',
     price: 'Unknown'
   },
   {
     name: 'marshmallow dagger',
     image: 'images/items/era_marshmallow_mele-icon.png',
     category: 'melees',
-    pricerange: '10k-50k',
-    price: '20k-25k'
+    pricerange: '50k-100k',
+    price: '60-70k'
   },
   {
     name: 'crayon trashpick',
@@ -649,84 +649,84 @@ const items = [
     image: 'images/items/era_motive-chainsawicon.gif',
     category: 'melees',
     pricerange: '50k-100k',
-    price: '50k-60k'
+    price: '90k-95k'
   },
   {
     name: 'nature ridden axe',
     image: 'images/items/era_olirus-2018-natureriddenaxe-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '10k-12k'
+    price: '10k-15k'
   },
   {
     name: 'paladin staff',
     image: 'images/items/era_olirus-2018-paladinstaff-icon.png',
     category: '',
-    pricerange: '50k-100k',
-    price: '70k-80k'
+    pricerange: '10k-50k',
+    price: '45k-50k'
   },
   { ///////////////////
     name: 'blue plasma scythe',
     image: 'images/items/era_olirus-2018-plasmacorpscythe-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: 'Unknown'
+    price: '20k-25k'
   },
   { ///////////////////
     name: 'red plasma scythe',
     image: 'images/items/era_olirus-2018-plasmacorpscythe-iconred.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: 'Unknown'
+    price: '20k-25k'
   },
   {
     name: 'void dagger',
     image: 'images/items/era_olirus-2018-voiddagger-icon.png',
     category: 'melees',
     pricerange: '1m+',
-    price: '4m+'
+    price: '3m-3.5m'
   },
   {
     name: 'blue toothed sword',
     image: 'images/items/era_olirus-2019-eventshop-toothedsword-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '10k-12k'
+    price: '12k-14k'
   },
   {
     name: 'red toothed sword',
     image: 'images/items/era_olirus-2019-eventshop-toothedsword2-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '10k-12k'
+    price: '12k-14k'
   },
   {
     name: 'magma axe',
     image: 'images/items/era_olirus-magmaaxe-icon.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: '350k-400k'
+    price: '300k-400k'
   },
   {
     name: 'plunger trashpick',
     image: 'images/items/era_plunger_trashpick-icon.png',
     category: 'trashpicks',
-    pricerange: '10k-50k',
-    price: '20k-25k'
+    pricerange: '50k-100k',
+    price: '50k-60k'
   },
   {
     name: 'abyssal mark',
     image: 'images/items/era_qwerty-bf21-sword-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '18k-20k'
+    price: '20k-25k'
   },
   {
     name: 'sorcerers wand',
     image: 'images/items/era_qwerty-halloween21-sorcerers-wand-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '18k-20k'
+    price: '15k-18k'
   },
   { ///////////////////
     name: 'water slayer',
@@ -740,28 +740,28 @@ const items = [
     image: 'images/items/era_qwerty-xmas21-dual-knives-icon1.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: '110k-120k'
+    price: '120k-130k'
   },
   {
     name: 'dino hat',
     image: 'images/items/era_rare-blackfacehat-icon.gif',
     category: 'hats',
     pricerange: '1m+',
-    price: 'Unknown'
+    price: '7m+'
   },
   {
     name: 'christmas umbrella',
     image: 'images/items/era_raul-xmasumbrella-icon.png',
     category: 'umbrellas',
     pricerange: '50k-100k',
-    price: '70k-80k'
+    price: '80k-85k'
   },
   {
     name: 'palm umbrella',
     image: 'images/items/era_rima-auctions-palmumbrellaicon.png',
     category: 'umbrellas',
     pricerange: '100k-500k',
-    price: '250k-270k'
+    price: '210k-230k'
   },
   {
     name: 'legendary hat chest',
@@ -775,21 +775,21 @@ const items = [
     image: 'images/items/era_rima-bf22-bubblyumbrella-icon.gif',
     category: 'umbrellas',
     pricerange: '50k-100k',
-    price: '60k-70k'
+    price: '80k-90k'
   },
   {
     name: 'rare flower basket',
     image: 'images/items/era_rima-flower2018-rarebasket-icon.png',
     category: '',
     pricerange: '10k-50k',
-    price: '30k-35k'
+    price: '35k-45k'
   },
   { ///////////////////
     name: 'ornament spear',
     image: 'images/items/era_rima-presents21-ornamentspear-icon.png',
     category: 'melees',
     pricerange: '1m+',
-    price: 'Unknown'
+    price: '7m+'
   },
   { ///////////////////
     name: 'cupid spear',
@@ -802,64 +802,64 @@ const items = [
     name: 'icy slasher',
     image: 'images/items/era_rima-xmas22-icyslasher-icon-1.png',
     category: 'melees',
-    pricerange: '10k-50k',
-    price: 'Unknown'
+    pricerange: '1m+',
+    price: '2.5m+'
   },
   {
     name: 'rage blade',
     image: 'images/items/era_shiz-idkblade-icon.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: '170k-180k'
+    price: '130k-150k'
   },
   {
     name: 'mermaid staff',
     image: 'images/items/era_sio-seamonster21-mermaidstaff-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '65k-70k'
+    price: '40k-50k'
   },
   {
     name: 'sea staff',
     image: 'images/items/era_sio-summer2021-seastaff-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '20k-22k'
+    price: '14k-16k'
   },
   {
     name: 'ice blade',
     image: 'images/items/era_storm_daggericon1.png',
     category: 'melees',
-    pricerange: '50k-100k',
-    price: '50k-60k'
+    pricerange: '100k-500k',
+    price: '100k-110k'
   },
   {
     name: 'bamboo sword',
     image: 'images/items/era_timo_bamboosword-icon.png',
     category: 'melees',
     pricerange: '50k-100k',
-    price: '55k-60k'
+    price: '70k-80k'
   },
   {
     name: 'turkey chunk',
     image: 'images/items/era_timo_turkeychunk-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '24k-27k'
+    price: '22k-27k'
   },
   {
     name: 'rainbow cape',
     image: 'images/items/era_tricky-rainbow22-cape-icon.png',
     category: 'melees',
     pricerange: '1m+',
-    price: '1.2m+'
+    price: '2m+'
   },
   {
     name: 'shark mount',
     image: 'images/items/era_tricky-summer20-sharkie-icon.png',
     category: 'mounts',
     pricerange: '100k-500k',
-    price: '110k-120k'
+    price: '100k-110k'
   },
   {
     name: 'shrimp mount',
@@ -873,7 +873,7 @@ const items = [
     image: 'images/items/era_umbrella-rainbow-icon.png',
     category: 'umbrellas',
     pricerange: '1m+',
-    price: 'Unknown'
+    price: '1.8m-2m'
   },
   { ///////////////////
     name: 'shrouded edge',
@@ -887,21 +887,21 @@ const items = [
     image: 'images/items/era_vera-bf20-zodiacsign-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '20k-22k'
+    price: '25k-30k'
   },
   {
     name: 'fangtian spear',
     image: 'images/items/era_vera-cny21-spear-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '25k-28k'
+    price: '20k-25k'
   },
   {
     name: 'ragnarok axe',
     image: 'images/items/era_vera-crypt19-rereborn-axe-icon.png',
     category: '',
     pricerange: '10k-50k',
-    price: '10k-12k'
+    price: '7k-11k'
   },
   { ///////////////////
     name: 'flame katana',
@@ -914,132 +914,132 @@ const items = [
     name: 'devils kanabo',
     image: 'images/items/era_vera-hw22-melee1-icon.png',
     category: 'melees',
-    pricerange: '1m+',
-    price: 'Unknown'
+    pricerange: '500k-1m',
+    price: '620k+'
   },
   {
     name: 'ryouma dual blades',
     image: 'images/items/era_vera-jpn21-bkatana-icon.png',
     category: 'melees',
     pricerange: '500k-1m',
-    price: '750k-800k'
+    price: '650k-680k'
   },
   {
     name: 'neutron katana',
     image: 'images/items/era_vera-neutron-katana-icon1.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: '110k-115k'
+    price: '100k-105k'
   },
   {
     name: 'plasma neutron claws',
     image: 'images/items/era_vera-plasma-claws-icon.png',
     category: 'melees',
     pricerange: '1m+',
-    price: '1.2m+'
+    price: '1.4m-1.6m'
   },
   {
     name: 'plasma neutron fists',
     image: 'images/items/era_vera-plasma-punch-icon.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: '200k-210k'
+    price: '210k-220k'
   },
   {
     name: 'gothic umbrella',
     image: 'images/items/era_vera-presents19-umbrella-icon.png',
     category: 'umbrellas',
     pricerange: '100k-500k',
-    price: '450k-500k'
+    price: '400k-450k'
   },
   {
     name: 'peacekeeper',
     image: 'images/items/era_vera-xmas-present-peacekeeper-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '20k-22k'
+    price: '17k-20k'
   },
   {
     name: 'reapers of torment',
     image: 'images/items/era_vera-xmas-present-reapertorment-icon.png',
     category: 'melees',
-    pricerange: '10k-50k',
-    price: '700k-720k'
+    pricerange: '100k-500k',
+    price: '375k-425k'
   },
   {
     name: 'areadbhar',
     image: 'images/items/era_vera-xmas21-spear-icon.png',
     category: 'melees',
-    pricerange: '500k-1m',
-    price: '720k-750k'
+    pricerange: '1m+',
+    price: '1m+'
   },
   {
     name: 'angel wings',
     image: 'images/items/era_water-angelwings-icon.png',
     category: 'mounts',
     pricerange: '1m+',
-    price: '3.5m+'
+    price: '4m+'
   },
   { ///////////////////
     name: 'demon wings',
     image: 'images/items/era_water-demonwings-icon.png',
     category: 'mounts',
     pricerange: '1m+',
-    price: 'Unknown'
+    price: '3.5m-3.7m'
   },
   {
     name: 'blood sword',
     image: 'images/items/era_yuki-blackfriday20-sword-icon.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '15k-18k'
+    price: '16k-18k'
   },
   {
     name: 'aqua blade',
     image: 'images/items/era_yuki-halloween20-aquablade-icon.png',
     category: 'melees',
-    pricerange: 'Under 10k',
-    price: '9k-10k'
+    pricerange: '10k-50k',
+    price: '10k-12k'
   },
   { ///////////////////
     name: 'frost slayer',
     image: 'images/items/era_yuki-xmas20-melee1-icon1.png',
-    category: '',
+    category: 'melees',
     pricerange: '10k-50k',
-    price: 'Unknown'
+    price: '10k-11k'
   },
   {
     name: 'inferno slayer',
     image: 'images/items/era_yuki-xmas20-weapon2-icon.png',
-    category: '',
+    category: 'melees',
     pricerange: '10k-50k',
-    price: '40k-45k'
+    price: '45k-50k'
   },
   {
     name: 'kenshi katana',
     image: 'images/items/ezio_katana_icon.png',
     category: 'melees',
-    pricerange: '50k-100k',
-    price: '65k-70k'
+    pricerange: '100k-500k',
+    price: '105k-115k'
   },
   {
     name: 'spear trashpick',
     image: 'images/items/hermes-spear-icon.png',
     category: 'trashpicks',
-    pricerange: '10k-50k',
-    price: '30k-35k'
+    pricerange: '50k-100k',
+    price: '50k-55k'
   },
   { ///////////////////
     name: 'pepper pickaxe',
     image: 'images/items/icon_era-cdmbaspepperpickaxe.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: 'Unknown'
+    price: '150k-200k'
   },
   { ///////////////////
     name: 'layerd saber',
     image: 'images/items/kuro_lay-bday-melee-icon.png',
-    category: '',
+    category: 'melees',
     pricerange: '1m+',
     price: 'Unknown'
   },
@@ -1048,42 +1048,42 @@ const items = [
     image: 'images/items/layerd-birthdaydagger-icon.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: '100k-110k'
+    price: '150k-160k'
   },
   {
     name: 'paint trashpick',
     image: 'images/items/paintbrush-ay-icon.png',
     category: 'trashpicks',
-    pricerange: '10k-50k',
-    price: '30k-35k'
+    pricerange: '50k-100k',
+    price: '50k-55k'
   },
   { ///////////////////
     name: 'layerd sword',
     image: 'images/items/shiz-lay-b-day-icon.png',
     category: 'melees',
-    pricerange: '50k-100k',
+    pricerange: '1m+',
     price: 'Unknown'
   },
   { ///////////////////
     name: 'wind dagger',
     image: 'images/items/shizbdaydagger-icon.png',
     category: 'melees',
-    pricerange: '1m+',
-    price: 'Unknown'
+    pricerange: '50k-100k',
+    price: '50k-60k'
   },
   { ///////////////////
     name: 'mushroom dagger',
     image: 'images/items/timo_mushroomdaggericon.png',
     category: 'melees',
-    pricerange: '1m+',
-    price: 'Unknown'
+    pricerange: '500k-1m',
+    price: '500k-550k'
   },
   { ///////////////////
     name: 'zombie morph',
     image: 'images/items/zombehz.png',
     category: 'show-off items',
     pricerange: '1m+',
-    price: 'Unknown'
+    price: '1m+'
   }
 ];
 
