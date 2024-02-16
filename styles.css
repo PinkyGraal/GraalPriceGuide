@@ -750,7 +750,7 @@ h4 {
   letter-spacing: 5px;
   text-align: center;
   color: white;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .slider {
