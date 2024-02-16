@@ -4,14 +4,14 @@ const items = [
     image: 'images/items/cda_stungunicon.png',
     category: 'melees',
     pricerange: 'Under 10k',
-    price: '1k-1.2k'
+    price: '800-1.2k'
   },
   {
     name: 'dragon breath knife',
     image: 'images/items/era_auction20-bbb-dragonbreath-knife-icon.gif',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '35k-40k',
+    price: '40k-55k',
     video: "<a href='https://youtu.be/4wu-G7k5r9w?si=s20hyqb0OpJ1iI4k'>About</a>"
   },
   { /////////////////////
