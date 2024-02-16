@@ -18,14 +18,14 @@ const items = [
     name: 'guardian angel trashpick',
     image: 'images/items/era_auction20-bbb-guardianangel-trashpick-icon.png',
     category: 'trashpicks',
-    pricerange: '50k-100k',
-    price: '25k-35k'
+    pricerange: '100k-500k',
+    price: '100k-110k'
   },
   {
     name: 'thunder blade',
     image: 'images/items/era_auction20-bbb-majestic-thunderblade-icon.png',
     category: 'melees',
-    pricerange: '100k-500k',
+    pricerange: '50k-100k',
     price: '70k-75k'
   },
   {
@@ -54,7 +54,7 @@ const items = [
     image: 'images/items/era_auction22-cpu-shwknife-icon.png',
     category: 'melees',
     pricerange: '1m+',
-    price: 'Unknown'
+    price: '1.7m-2m'
   },
   { /////////////////////
     name: 'karafuru katana',
@@ -130,7 +130,7 @@ const items = [
     name: 'golden honey stick',
     image: 'images/items/era_cpu-bee22-golden-honey-stick-melee-icon.png',
     category: 'melees',
-    pricerange: 'Under 10k',
+    pricerange: '10k-50k',
     price: '10k-12k'
   },
   { ///////////////////
@@ -144,8 +144,8 @@ const items = [
     name: 'chaos blade',
     image: 'images/items/era_cpu-presents22-chaosblade-icon.png',
     category: 'melees',
-    pricerange: '1m+',
-    price: 'unknown'
+    pricerange: '50k-100k',
+    price: '50k-60k'
   },
   { ///////////////////
     name: 'sky breaker',
@@ -158,15 +158,15 @@ const items = [
     name: 'rainbow skateboard trashpick',
     image: 'images/items/era_crimiz-store-skatepick-icon1.png',
     category: 'trashpicks',
-    pricerange: '1m+',
-    price: 'Unknown'
+    pricerange: '500k-1m',
+    price: '700k-850k'
   },
   {
     name: 'monkey melee',
     image: 'images/items/era_crissi-minimonkey-icon.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: '350k+'
+    price: '350k-375k'
   },
   { ///////////////////
     name: 'galactic frost blade',
@@ -257,13 +257,13 @@ const items = [
     image: 'images/items/era_icon-chaplaindagger1.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: '15k'
+    price: '12k-15k'
   },
   {
     name: 'cigar trashpick',
     image: 'images/items/era_icon-cigartrashpick.png',
     category: 'trashpicks',
-    pricerange: '10k-50k',
+    pricerange: '50k-100k',
     price: '70k-80k'
   },
   { 
@@ -319,7 +319,7 @@ const items = [
     name: 'ice cream melee',
     image: 'images/items/era_icon-icecreammelee.png',
     category: 'melees',
-    pricerange: '10k-50k',
+    pricerange: '50k-100k',
     price: '50k-65k'
   },
   {
@@ -362,7 +362,7 @@ const items = [
     image: 'images/items/era_icon-minin-pickaxe.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: 'Unknown'
+    price: '200k-220k'
   },
   {
     name: 'purple mushroom knife',
@@ -383,13 +383,13 @@ const items = [
     image: 'images/items/era_icon-mushroomknife3.png',
     category: 'mushroom knives',
     pricerange: '500k-1m',
-    price: '600k-1m+'
+    price: '600k-1m'
   },
   {
     name: 'noob hammer',
     image: 'images/items/era_icon-noobhammer.png',
     category: 'melees',
-    pricerange: '500k-1m',
+    pricerange: '1m+',
     price: '1m+'
   },
   { ///////////////////
@@ -418,7 +418,7 @@ const items = [
     image: 'images/items/era_icon-princessdagger.png',
     category: 'melees',
     pricerange: '500k-1m',
-    price: 'unknown'
+    price: '500k-550k'
   },
   {
     name: 'skateboard trashpick',
@@ -488,14 +488,14 @@ const items = [
     image: 'images/items/era_icon-unbrellameleeblue.png',
     category: 'umbrellas',
     pricerange: '1m+',
-    price: '1m+'
+    price: '1m-1.2m'
   },
   {
     name: 'green umbrella',
     image: 'images/items/era_icon-unbrellameleegreen.png',
     category: 'umbrellas',
     pricerange: '500k-1m',
-    price: '400k-500k'
+    price: '500k-550k'
   },
   {
     name: 'pink umbrella',
