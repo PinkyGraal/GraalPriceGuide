@@ -40,21 +40,35 @@
 
 <h2 class="prices-header">Giveaways</h2>
 <div class="box-div2">
+  <h4 class="videoTitle">Enter <u>Below</u> For a Chance to Win a La Chancla and a Twitch Mount!</h4>
+
   <div class="container">
-    <h4 class="videoTitle">Enter The Giveaway For a Chance to Win a La Chancla and a Twitch Mount!</h4>
-    <form id="submission-form" class="form">
-        <div class="form-group">
-            <input type="name" id="name" name="name" placeholder="In-Game Name" required>
-        </div>
-        <div class="form-group">
-            <input type="gang" id="gang" name="gang" placeholder="Gang" required>
-        </div>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="box-div">
+        <form method="post" id="myForm" action="https://script.google.com/macros/s/AKfycbz6ZISVS_gzDOypEkzLWgaby9A9SbswxN9vBY1FcHoU5TzRklWUJLXLSWvZd60BYYmn/exec" enctype="application/x-www-form-urlencoded" name="contact-form">
+            <input type="text" name="GraalID" id="graalID" placeholder="GraalID" maxlength="15">
+            <input type="text" name="In-Game Name" id="inGameName" placeholder="In-Game Name" maxlength="15">
+            <input type="submit" value="Submit" id="submit">
+            <img src="images/items/era_icon-lachancla.png" width="150px" height="150px" class="gImage">
+            <img src="images/graalgangster.png" width="150px" height="150px" class="gImage">
+        </form>
+    </div>
 </div>
+
+<!-- New Modal -->
+<div id="myModal2" class="modal2">
+    <div class="modal-content2">
+        <span class="close2">&times;</span>
+        <h1 class="modalTitle">Thank you for Entering!</h1>
+        <h4 class="modalWinners">Winners will be contacted in-game in 1 WEEK!</h4>
+    </div>
+</div>
+
+
+  
+<script src="Google Sheet.js"></script>
+
 <div class="box-div3">
-  <img src="images/items/era_icon-lachancla.png" width="200px" height="200px" class="gImage">
-  <img src="images/graalgangster.png" width="200px" height="200px" class="gImage">
+
 
 </div>
 </div>

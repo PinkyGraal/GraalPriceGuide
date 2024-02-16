@@ -61,6 +61,16 @@ html {
   width: 700px;
 }
 
+.modalTitle {
+  font-size: 3rem;
+  padding: 3rem;
+}
+
+.modalWinners {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
 @media only screen and (max-width: 900px) {
   .nav-menu {
       position: fixed;
@@ -152,6 +162,16 @@ html {
   border-radius: 10px;
   font-size: 20px;
   border-color: black;
+}
+
+.modalTitle {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.modalWinners {
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
 }
 
 }
@@ -592,8 +612,8 @@ h3 {
   left: 50%; /* Center horizontally relative to the viewport */
   transform: translate(-50%, -50%); /* Center the modal */
   padding: 20px;
-  max-width: 70%;
-  min-width: 80%;
+  max-width: 100%;
+  min-width: 50%;
   max-height: 100%;
 }
 
@@ -601,6 +621,15 @@ h3 {
 
 /* Close button */
 .close-modal {
+  color: goldenrod;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.close-modal:hover {
   color: white;
   position: absolute;
   top: 0px;
@@ -660,6 +689,8 @@ h6 {
   margin-left: auto;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 h4 {
@@ -708,64 +739,75 @@ h4 {
   justify-content: center;
 }
 
-
-.form-group {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  margin-top: 1rem;
-}
-
-input[type="name"],
-input[type="gang"],
-textarea {
+ input {
   width: 80%;
   padding: 10px;
-  border: 1px solid #ccc;
+  margin-bottom: 10px;
   border-radius: 5px;
-}
-input[type="submit"] {
-  background-color: #ffae00;
-  color: #fff;
-  padding: 10px 20px;
-  margin-top: 1.5rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 5rem;
-}
-input[type="submit"]:hover {
-  background-color: #b37a00;
-}
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 3rem;
  }
 
- .box-div2 {
-  display: flex;
-  flex-direction: column;
-  width: 95%;
-  justify-content: center;
-  margin: auto;
-  margin-bottom: 1rem;
-  background-color: rgb(12, 12, 12);
-  padding-bottom: 5rem;
+ textarea {
+  width: 100%;
+  padding: 10px;
+ }
+
+ #submit {
+  border: none;
+  background-color: #e7b100;
+  color: black;
+  width: 80px;
+  margin-top: 10px;
+  border-radius: 10px;
+ }
+
+ #submit:hover {
+  background-color: rgb(179, 131, 0);
+  cursor: pointer;
+ }
+
+ form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ /* New Modal styles */
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 5rem;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
 }
 
-.box-div3 {
-  display: flex;
-  flex-direction: row;
-  width: 95%;
-  justify-content: center;
-  margin: auto;
-  margin-bottom: 1rem;
-  background-color: rgb(12, 12, 12);
-  padding-bottom: 5rem;
+.modal-content2 {
+  background-color: #161616;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #ffae00;
+  width: 70%;
+  text-align: center;
 }
 
-.gImage {
-  margin: 2rem;
+.close2 {
+  color: #1a1a1a;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffae00;
+  font-size: 50px;
+  top: 20rem;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
 }
