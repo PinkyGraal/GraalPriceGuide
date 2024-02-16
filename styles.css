@@ -122,6 +122,38 @@ html {
   width: auto;
 }
 
+.selectMenus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.filterDropdowns {
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  text-align: center;
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  border-color: black;
+}
+
 }
 
 li {
@@ -312,6 +344,8 @@ h3 {
 }
 
 .selectMenus {
+  display: flex;
+  justify-content: center;
   background-color: rgb(37, 37, 37);
   width: 95%;
   margin-right: auto;
@@ -505,14 +539,14 @@ h3 {
 .filterDropdowns {
   background: white;
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 2rem;
+  margin-left: 2rem;
   text-align: center;
   height: 50px;
   width: 300px;
@@ -657,7 +691,6 @@ h4 {
   padding-bottom: 5rem;
 }
 
-
 .prev-btn,
 .next-btn {
   padding-right: 1rem;
@@ -673,4 +706,66 @@ h4 {
 .video-container {
   display: flex;
   justify-content: center;
+}
+
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-top: 1rem;
+}
+
+input[type="name"],
+input[type="gang"],
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  background-color: #ffae00;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 5rem;
+}
+input[type="submit"]:hover {
+  background-color: #b37a00;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+ }
+
+ .box-div2 {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 1rem;
+  background-color: rgb(12, 12, 12);
+  padding-bottom: 5rem;
+}
+
+.box-div3 {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 1rem;
+  background-color: rgb(12, 12, 12);
+  padding-bottom: 5rem;
+}
+
+.gImage {
+  margin: 2rem;
 }
