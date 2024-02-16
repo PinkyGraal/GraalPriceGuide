@@ -2,8 +2,8 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
     // Perform validation
-    var graalID = document.getElementById('graalID').value.trim();
-    var inGameName = document.getElementById('inGameName').value.trim();
+    var graalID = document.getElementById('inGameName').value.trim();
+    var inGameName = document.getElementById('gang').value.trim();
 
     // Regex pattern to allow only letters and numbers
     var regex = /^[a-zA-Z0-9\s]*$/;
@@ -26,7 +26,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
     // Send form data if validation passes
     var formData = new FormData(this);
-    fetch('https://script.google.com/macros/s/AKfycbz6ZISVS_gzDOypEkzLWgaby9A9SbswxN9vBY1FcHoU5TzRklWUJLXLSWvZd60BYYmn/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbySgupAv-fXXq7I7Ev_yUig-GMVQf0X73Hshdyy59GHFDRc9mo1DINCvGluDVgTiA9F/exec', {
         method: 'POST',
         body: formData
     })
