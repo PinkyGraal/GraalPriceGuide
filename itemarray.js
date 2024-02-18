@@ -9,7 +9,7 @@ const items = [
   {
     name: 'dragon breath knife',
     image: 'images/items/era_auction20-bbb-dragonbreath-knife-icon.gif',
-    category: 'melees',
+    category: 'mushroom knives',
     pricerange: '10k-50k',
     price: '40k-55k',
     video: "<a href='https://youtu.be/4wu-G7k5r9w?si=s20hyqb0OpJ1iI4k'>About</a>"
@@ -47,14 +47,14 @@ const items = [
     image: 'images/items/era_auction21-blackmatter-katana-icon.gif',
     category: 'melees',
     pricerange: '1m+',
-    price: '2.3m+'
+    price: 'Unknown'
   },
   { /////////////////////
     name: 'shadow daggers',
     image: 'images/items/era_auction22-cpu-shwknife-icon.png',
     category: 'melees',
     pricerange: '1m+',
-    price: '1.7m-2m'
+    price: 'Unknown'
   },
   { /////////////////////
     name: 'karafuru katana',
@@ -68,7 +68,7 @@ const items = [
     image: 'images/items/era_bailey-presents21-icemage-icon.png',
     category: 'melees',
     pricerange: '1m+',
-    price: '11m-12m'
+    price: 'Unknown'
   },
   {
     name: 'beaver hammer',
@@ -103,7 +103,7 @@ const items = [
     image: 'images/items/era_bitzsam-goldenbutterflyknife-new-icon.gif',
     category: 'melees',
     pricerange: '1m+',
-    price: '2m+'
+    price: 'Unknown'
   },
   {
     name: 'bone trashpick',
@@ -152,7 +152,7 @@ const items = [
     image: 'images/items/era_cpu-presents22-thesky-breaker-icon1.png',
     category: 'melees',
     pricerange: '1m+',
-    price: '3m+'
+    price: 'Unknown'
   },
   { ///////////////////
     name: 'rainbow skateboard trashpick',
@@ -299,14 +299,14 @@ const items = [
     image: 'images/items/era_icon-fbaxe21.png',
     category: 'melees',
     pricerange: '10k-50k',
-    price: 'unknown'
+    price: 'Unknown'
   },
   {
     name: 'flamecrow wings',
     image: 'images/items/era_icon-fcwings.png',
     category: 'show-off items',
     pricerange: '500k-1m',
-    price: 'unknown'
+    price: 'Unknown'
   },
   {
     name: 'graalians hammer',
@@ -453,7 +453,7 @@ const items = [
     image: 'images/items/era_icon-toybat.png',
     category: 'show-off items',
     pricerange: '100k-500k',
-    price: 'unknown'
+    price: 'Unknown'
   },
   {
     name: 'gold umbrella',
@@ -684,7 +684,7 @@ const items = [
     image: 'images/items/era_olirus-2018-voiddagger-icon.png',
     category: 'melees',
     pricerange: '1m+',
-    price: '3m-3.5m'
+    price: 'Unknown'
   },
   {
     name: 'blue toothed sword',
@@ -747,7 +747,7 @@ const items = [
     image: 'images/items/era_rare-blackfacehat-icon.gif',
     category: 'hats',
     pricerange: '1m+',
-    price: '7m+'
+    price: 'Unknown'
   },
   {
     name: 'christmas umbrella',
@@ -789,7 +789,7 @@ const items = [
     image: 'images/items/era_rima-presents21-ornamentspear-icon.png',
     category: 'melees',
     pricerange: '1m+',
-    price: '7m+'
+    price: 'Unknown'
   },
   { ///////////////////
     name: 'cupid spear',
@@ -803,7 +803,7 @@ const items = [
     image: 'images/items/era_rima-xmas22-icyslasher-icon-1.png',
     category: 'melees',
     pricerange: '1m+',
-    price: '2.5m+'
+    price: 'Unknown'
   },
   {
     name: 'rage blade',
@@ -852,7 +852,7 @@ const items = [
     image: 'images/items/era_tricky-rainbow22-cape-icon.png',
     category: 'melees',
     pricerange: '1m+',
-    price: '2m+'
+    price: 'Unknown'
   },
   {
     name: 'shark mount',
@@ -899,7 +899,7 @@ const items = [
   {
     name: 'ragnarok axe',
     image: 'images/items/era_vera-crypt19-rereborn-axe-icon.png',
-    category: '',
+    category: 'melees',
     pricerange: '10k-50k',
     price: '7k-11k'
   },
@@ -915,7 +915,7 @@ const items = [
     image: 'images/items/era_vera-hw22-melee1-icon.png',
     category: 'melees',
     pricerange: '500k-1m',
-    price: '620k+'
+    price: '620k-700k'
   },
   {
     name: 'ryouma dual blades',
@@ -978,14 +978,14 @@ const items = [
     image: 'images/items/era_water-angelwings-icon.png',
     category: 'mounts',
     pricerange: '1m+',
-    price: '4m+'
+    price: 'Unknown'
   },
   { ///////////////////
     name: 'demon wings',
     image: 'images/items/era_water-demonwings-icon.png',
     category: 'mounts',
     pricerange: '1m+',
-    price: '3.5m-3.7m'
+    price: 'Unknown'
   },
   {
     name: 'blood sword',
@@ -1083,7 +1083,7 @@ const items = [
     image: 'images/items/zombehz.png',
     category: 'show-off items',
     pricerange: '1m+',
-    price: '1m+'
+    price: 'Unknown'
   }
 ];
 
