@@ -474,7 +474,7 @@ const items = [
     image: 'images/items/era_icon-umbrellakuroneko2.png',
     category: 'umbrellas',
     pricerange: '500k-1m',
-    price: '700k-800k'
+    price: '625k-700k'
   },
   {
     name: 'black umbrella',
