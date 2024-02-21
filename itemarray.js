@@ -495,14 +495,14 @@ const items = [
     image: 'images/items/era_icon-unbrellameleegreen.png',
     category: 'umbrellas',
     pricerange: '500k-1m',
-    price: '500k-550k'
+    price: '350k+'
   },
   {
     name: 'pink umbrella',
     image: 'images/items/era_icon-unbrellameleepink.png',
     category: 'umbrellas',
     pricerange: '500k-1m',
-    price: '700k-750k'
+    price: '600k+'
   },
   {
     name: 'purple umbrella',
@@ -593,7 +593,7 @@ const items = [
     image: 'images/items/era_jordan-nuclearstone-blade-icon.png',
     category: 'melees',
     pricerange: '100k-500k',
-    price: '100k-110k'
+    price: '100k+'
   },
   {
     name: 'flaming dagger',
