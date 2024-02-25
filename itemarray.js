@@ -50,7 +50,7 @@ const items = [
     price: 'Unknown'
   },
   { /////////////////////
-    name: 'shadow daggers',
+    name: 'tactical daggers',
     image: 'images/items/era_auction22-cpu-shwknife-icon.png',
     category: 'melees',
     pricerange: '1m+',
