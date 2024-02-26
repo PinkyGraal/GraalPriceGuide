@@ -244,6 +244,10 @@ html {
   min-width: 80%;
 }
 
+.videoTitle {
+  font-size: 1.5rem;
+}
+
 }
 
 li {
@@ -766,9 +770,11 @@ h4 {
 
 .box-div {
   display: flex;
+  flex-direction: column;
   width: 95%;
   justify-content: center;
   margin: auto;
+  align-items: center;
   margin-bottom: 1rem;
   background-color: rgb(12, 12, 12);
   padding-bottom: 5rem;
@@ -870,11 +876,13 @@ h4 {
 }
 
 .gImage {
+  display: flex;
   width: 20rem;
   padding-bottom: 1rem;
 }
 
 .gImage2 {
+  display: flex;
   width: 5rem;
 }
 
